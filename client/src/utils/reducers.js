@@ -1,4 +1,5 @@
 import { useReducer } from "react";
+
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -10,14 +11,14 @@ import {
   CLEAR_CART,
   TOGGLE_CART
 } from "./actions";
-import { combineReducers } from "redux";
 
-const rootReducer = combineReducers({
+// import { combineReducers } from "redux";
 
+// const rootReducer = combineReducers({
 
-});
+// });
 
-export default rootReducer;
+// export default rootReducer;
 
 export const reducer = (state, action) => {
   switch (action.type) {
